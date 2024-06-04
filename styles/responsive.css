@@ -1,0 +1,99 @@
+@media screen and (max-width:1250px){.nav-item .nav-link {padding: 20px !important;}}
+@media screen and (max-width:1200px)
+{
+  .getquote{display: none;}
+  .navbar-expand-md .navbar-collapse{
+    flex-basis: 100%;
+    justify-content: center;    
+}
+.h1,
+  .h2 {
+    margin: 0 !important;
+    line-height: clamp(5vw, 10vw, 150px ) !important;
+  }
+} 
+@media screen and (max-width:1024px) 
+{
+  .callhead{margin-right: 30px;}
+  .mailhead{margin-right: 0px;}
+  .iconspan{font-size: 15px;}
+  .icondesc span{font-size: 16px;}
+  .icondesc p{font-size: 20px;} 
+}
+@media screen and (max-width:991px) {
+  .navbar-expand-md .navbar-collapse{margin-left: 0px;}
+  .nav-item .nav-link{padding: 20px 8px !important;}
+  .main404 {
+    height: 80vh;
+  }
+  .h1 {
+    font-size: 8em !important;
+    font-weight: 700 !important;
+    opacity: 0;
+    color: #20202b !important;
+    transform: translateY(-100vh);
+  }
+  .h2 {
+    font-size: 3em !important;
+    font-weight: 600 !important;
+    padding-top: 30px !important;
+    color: transparent;
+    text-shadow: 2px 2px 0 red, -2px -2px 0 green, 6px 0 0 violet, -6px 0 0 yellow,
+      0 -6px 0 aqua, 0 6px 0 yellowgreen;
+    color: #eee !important;
+  }
+  body .material-symbols-outlined {
+    font-size: 12em !important;
+    text-shadow: 2px 2px 0 red, -2px -2px 0 green, 6px 0 0 violet, -6px 0 0 yellow,
+      0 -6px 0 cyan, 0 6px 0 yellowgreen;
+  }
+  .blogh1{font-size: 2.5em !important;}
+  .footer .widget3,.footer .widget4 {margin-left: 0px;}
+}
+@media screen and (max-width:768px){
+  .navbar-collapse{background-color: white;margin-top: -10px;position: absolute;
+    top: 110px;
+    width: 100%;
+    left: 0px;} 
+  .formcont{width: 100%;}  
+  .nav-item .nav-link{padding: 20px !important;}
+  .nav-item{border-bottom: 1px solid black;}
+  .last{border: none;}
+  .navbar-nav{margin-bottom: 0;}
+  #scroll{width: 40px;height: 40px}
+  .container-fluid{padding: 20px;}
+  .up-head{display: none;}
+  header h2{font-size: 2em;}
+  #counter li{font-size: 30px;}
+  .intercom,.intercomCloseBtn{width: 40px;height: 40px;}
+  #counter{padding: 40px 20px;}
+  .servcard{width: 48%;}
+  .contactinfo a{font-size: 14px;font-weight: 800;line-height: 1.6;}
+  footer .logo{margin: 0px;}
+  .footer .widget1 p {margin: 0px;}
+  .footer .widget4,.footer .widget2,.footer .widget3{text-align: start;}
+  .bloginfo2{order: 1;}
+  .blogh1{font-size: 1.5em !important;}
+  .footer .widget2{margin: 5px 0px 0px 0px;}
+} 
+
+@media screen and (max-width:556px)
+{
+  .navbar-collapse{margin-top: -22px;}
+  .servcard{width: 100%;}
+  .mainlogo{padding: 0px 10px 0px 0px;}
+  
+
+}
+@media screen and (max-width:485px){#counter li p{font-size: 12.5px;}}
+@media screen and (max-width:456px)
+{
+  .navbar-collapse{margin-top: -42px;}
+  .container-fluid{padding: 10px;}
+  #counter{padding: 20px 0px;}
+  #counter li{font-size: 22px;}
+  #counter li p{font-size: 12.5px;}
+  header h2{text-align: center;} 
+  header h2>span {margin-top: 10px;}
+  header h1{font-size: 2.6em;} 
+}
